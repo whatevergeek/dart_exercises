@@ -3,6 +3,5 @@ import 'dart:io';
 
 main(List<String> arguments) {
   stdout.write("What is your name? ");
-  var name = stdin.readLineSync();
-  stdout.write(exercise_01.hello(name));
+  stdout.write(exercise_01.hello(stdin.readLineSync()));
 }
